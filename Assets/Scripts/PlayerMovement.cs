@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb2d;
     public float speed;
     public GameObject camera;
-    public float rotation = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -23,16 +22,14 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             print("Pressed Right");
-            rotation -= speed/2;
             //transform.position += Vector3.right * speed * Time.deltaTime;
-            rb2d.MoveRotation(rotation);
+            rb2d.MoveRotation(transform.rotation.eulerAngles.z - speed/2);
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             print("Pressed Left");
-            rotation += speed/2;
             //transform.position += Vector3.left * speed * Time.deltaTime;
-            rb2d.MoveRotation(rotation);
+            rb2d.MoveRotation(transform.rotation.eulerAngles.z + speed / 2);
         }
         var pos = camera.transform.position;
         pos.x = transform.position.x;
