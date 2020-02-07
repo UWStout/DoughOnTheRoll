@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb2d;
     public float speed;
     public GameObject camera;
+    public float jumpForce = 0;
+    public bool canJump = false;
 
     // Start is called before the first frame update
     void Start()
@@ -17,22 +19,35 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        //bool rightInput = Input.GetKey(KeyCode.RightArrow);
-        //bool leftInput = Input.GetKey(KeyCode.LeftArrow);
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            print("Pressed Right");
+            //print("Pressed Right");
             //transform.position += Vector3.right * speed * Time.deltaTime;
-            rb2d.MoveRotation(transform.rotation.eulerAngles.z - speed/2);
+            rb2d.MoveRotation(transform.rotation.eulerAngles.z - speed / 2);
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            print("Pressed Left");
+            //print("Pressed Left");
             //transform.position += Vector3.left * speed * Time.deltaTime;
             rb2d.MoveRotation(transform.rotation.eulerAngles.z + speed / 2);
         }
+        if (Input.GetKey(KeyCode.UpArrow) && canJump == true)
+        {
+            rb2d.velocity = Vector2.up * jumpForce;
+            canJump = false;
+        }
         var pos = camera.transform.position;
         pos.x = transform.position.x;
+        pos.y = transform.position.y;
         camera.transform.position = pos;
+    }
+
+    void OnCollisionEnter2D(Collision2D collided)
+    {
+        if (collided.gameObject.CompareTag("ground"))
+        {
+            //print("entered");
+            canJump = true;
+        }
     }
 }
