@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Background
+  tags: [Background]
   layers:
   - Default
   - TransparentFX
@@ -45,9 +44,18 @@ TagManager:
   - name: Background
     uniqueID: 2908222993
     locked: 0
+  - name: Far Backround
+    uniqueID: 2994259335
+    locked: 0
+  - name: Backround
+    uniqueID: 573677741
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Player
     uniqueID: 1250720527
+    locked: 0
+  - name: New Layer
+    uniqueID: 2424386879
     locked: 0
