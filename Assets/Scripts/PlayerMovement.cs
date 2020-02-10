@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -33,7 +34,9 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.UpArrow) && canJump == true)
         {
-            rb2d.velocity = Vector2.up * jumpForce;
+            Vector2 speed = rb2d.velocity;
+            speed.y = speed.y/5 + jumpForce;
+            rb2d.velocity = speed;
             canJump = false;
         }
         var pos = camera.transform.position;
@@ -46,7 +49,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collided.gameObject.CompareTag("ground"))
         {
-            //print("entered");
             canJump = true;
         }
     }
