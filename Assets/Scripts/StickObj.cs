@@ -12,6 +12,11 @@ public class StickObj : MonoBehaviour
             var joint = gameObject.AddComponent<FixedJoint2D>();
             joint.connectedBody = c.gameObject.GetComponent<Rigidbody2D>();
         }
-        
+        if (c.gameObject.CompareTag("Cabinet"))
+        {
+            
+            var joint = gameObject.AddComponent<FixedJoint2D>();
+            joint.connectedBody = c.gameObject.GetComponent<Rigidbody2D>();
+        }
     }
 }
