@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: [Background, PickUp, ground]
+  tags:
+  - Background
+  - PickUp
+  - ground
+  - Cabinet
   layers:
   - Default
   - TransparentFX
