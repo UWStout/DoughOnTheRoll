@@ -42,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Farther Background
+    uniqueID: 2809663903
+    locked: 0
   - name: Far Background
     uniqueID: 39028525
     locked: 0
@@ -54,9 +57,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 1250720527
-    locked: 0
   - name: Foreground
     uniqueID: 2424386879
     locked: 0
@@ -68,4 +68,7 @@ TagManager:
     locked: 0
   - name: stack3
     uniqueID: 3105458497
+    locked: 0
+  - name: Player
+    uniqueID: 1250720527
     locked: 0
