@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: [Background, PickUp, ground, Cabinet]
+  tags:
+  - Background
+  - PickUp
+  - ground
+  - Cabinet
   layers:
   - Default
   - TransparentFX
@@ -50,9 +54,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 1250720527
-    locked: 0
   - name: Foreground
     uniqueID: 2424386879
+    locked: 0
+  - name: stack1
+    uniqueID: 858229989
+    locked: 0
+  - name: stack2
+    uniqueID: 163674605
+    locked: 0
+  - name: stack3
+    uniqueID: 3105458497
+    locked: 0
+  - name: Player
+    uniqueID: 1250720527
     locked: 0
