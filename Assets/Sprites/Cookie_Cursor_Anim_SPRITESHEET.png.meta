@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 57da36f9f1d703e4eaff37646fd49c4a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8596632282392519615
+    second: Cookie_Cursor_Anim_SPRITESHEET_0
+  - first:
+      213: 7159971645820876685
+    second: Cookie_Cursor_Anim_SPRITESHEET_1
+  - first:
+      213: 8113869760825824054
+    second: Cookie_Cursor_Anim_SPRITESHEET_2
+  - first:
+      213: 601424697494552745
+    second: Cookie_Cursor_Anim_SPRITESHEET_3
+  - first:
+      213: 4189035198403258016
+    second: Cookie_Cursor_Anim_SPRITESHEET_4
+  - first:
+      213: 2205421300884129926
+    second: Cookie_Cursor_Anim_SPRITESHEET_5
+  - first:
+      213: 5932226420688086205
+    second: Cookie_Cursor_Anim_SPRITESHEET_6
+  - first:
+      213: 3547103219506497880
+    second: Cookie_Cursor_Anim_SPRITESHEET_7
+  - first:
+      213: 171425077445849156
+    second: Cookie_Cursor_Anim_SPRITESHEET_8
+  - first:
+      213: -4660243341024354553
+    second: Cookie_Cursor_Anim_SPRITESHEET_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +70,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +100,303 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cookie_Cursor_Anim_SPRITESHEET_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1170
+        width: 526
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438b601e18fab7a4cad97fc6c2cbb0a1
+      internalID: -8596632282392519615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cookie_Cursor_Anim_SPRITESHEET_1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1158
+        width: 508
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b8dfc9632b9c2488444207e0dc971e
+      internalID: 7159971645820876685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cookie_Cursor_Anim_SPRITESHEET_2
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1154
+        width: 504
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33989b96102d0a843b5732561a348b5a
+      internalID: 8113869760825824054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cookie_Cursor_Anim_SPRITESHEET_3
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1142
+        width: 525
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3cf7eae7072014c8fcf54aef801466
+      internalID: 601424697494552745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cookie_Cursor_Anim_SPRITESHEET_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 601
+        width: 518
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966f7928678882b45ad4ecc77592d06b
+      internalID: 4189035198403258016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cookie_Cursor_Anim_SPRITESHEET_5
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 588
+        width: 524
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27ecf267715a21489e30bdaca586991
+      internalID: 2205421300884129926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cookie_Cursor_Anim_SPRITESHEET_6
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 594
+        width: 528
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57c0772fb879e14f9d5657dc104be84
+      internalID: 5932226420688086205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cookie_Cursor_Anim_SPRITESHEET_7
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 572
+        width: 529
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a09542ad8115e49a47ac855ed78a2c
+      internalID: 3547103219506497880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cookie_Cursor_Anim_SPRITESHEET_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 10
+        width: 528
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e708d52747d2e9246b33ffed0eb2db3b
+      internalID: 171425077445849156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cookie_Cursor_Anim_SPRITESHEET_9
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 552
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fe5af5ec793694489be7010d511ba2
+      internalID: -4660243341024354553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
