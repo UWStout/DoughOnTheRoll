@@ -66,9 +66,12 @@ TagManager:
   - name: stack 3
     uniqueID: 673551155
     locked: 0
-  - name: Player
-    uniqueID: 1250720527
-    locked: 0
   - name: Foreground
     uniqueID: 2424386879
+    locked: 0
+  - name: Forestground
+    uniqueID: 2148997539
+    locked: 0
+  - name: Player
+    uniqueID: 1250720527
     locked: 0
