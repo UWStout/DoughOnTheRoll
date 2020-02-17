@@ -57,14 +57,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: stack1
-    uniqueID: 858229989
+  - name: stack 1
+    uniqueID: 2822680129
     locked: 0
-  - name: stack2
-    uniqueID: 163674605
+  - name: stack 2
+    uniqueID: 1080240759
     locked: 0
-  - name: stack3
-    uniqueID: 3105458497
+  - name: stack 3
+    uniqueID: 673551155
     locked: 0
   - name: Foreground
     uniqueID: 2424386879
