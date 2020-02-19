@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 0;
     public bool canJump = false;
     public GameObject glow;
+    public GameObject lego;
 
     // Start is called before the first frame update
     void Start()
@@ -61,6 +62,10 @@ public class PlayerMovement : MonoBehaviour
         {
             canJump = true;
             glow.SetActive(true);
+        }
+        if (collided.gameObject.CompareTag("Lego Piece")){
+            lego.SetActive(true);
+            Destroy(collided.gameObject);
         }
     }
 }
