@@ -7,7 +7,6 @@ public class MenuManager : MonoBehaviour
 {
     public GameObject[] soundSprites = new GameObject[2];
     public GameObject[] menuScreens = new GameObject[4];
-    public GameManager gameManager;
 
     public void switchMenu(int index)
     {

@@ -9,7 +9,7 @@ public class TuronOffSOund : MonoBehaviour
     public void toggleSound()
     {
 
-        audioSource = menuManager.gameManager.GetComponent<AudioSource>();
+        audioSource = menuManager.GetComponent<AudioSource>();
         if (menuManager.soundSprites[0].activeSelf)
         {
             audioSource.mute = true;
