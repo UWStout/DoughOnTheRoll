@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
             glow.SetActive(false);
         }
         var pos = camera.transform.position;
-        if (transform.position.x > (-100) && transform.position.x < 266)
+        if (transform.position.x > (-100) /*&& transform.position.x < 266*/)
         {
             pos.x = transform.position.x;
         }
