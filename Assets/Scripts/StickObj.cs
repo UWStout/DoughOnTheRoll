@@ -6,6 +6,7 @@ public class StickObj : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D c)
     {
+        // Code for player to stick to objects around the map.
         if (c.gameObject.CompareTag("PickUp"))
         {
             c.transform.parent = gameObject.transform;
