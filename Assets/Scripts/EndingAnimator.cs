@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class EndingAnimator : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject Player;
+    public GameObject animationPlayer;
+    Animator ending;
+    PlayerMovement playerScript;
+
+    private void Awake()
     {
-        
+        ending = gameObject.GetComponent<Animator>();
+        playerScript = Player.GetComponent<PlayerMovement>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnCollisionEnter2D(Collision2D collided)
     {
-        
+        if (collided.gameObject.CompareTag("Player")) {
+            Destroy(Player);
+            animationPlayer.SetActive(true);
+            ending.Play("CloseAnimation");
+            animationPlayer.GetComponent<Rigidbody2D>().velocity = new Vector3(17, 0, 0);
+        }
     }
 }

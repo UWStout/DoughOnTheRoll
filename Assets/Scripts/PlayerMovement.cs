@@ -22,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-
         if (Input.GetKey(KeyCode.RightArrow))
         {
             //print("Pressed Right");
@@ -44,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
             glow.SetActive(false);
         }
         var pos = camera.transform.position;
-        if (transform.position.x > (-100) /*&& transform.position.x < 266*/)
+        if (transform.position.x > (-100) && transform.position.x < 450)
         {
             pos.x = transform.position.x;
         }
@@ -54,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         camera.transform.position = pos;
+
     }
 
     void OnCollisionEnter2D(Collision2D collided)
