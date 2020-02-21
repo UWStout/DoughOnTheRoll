@@ -9,6 +9,7 @@ TagManager:
   - ground
   - Cabinet
   - Lego Piece
+  - Lego Piece 2
   layers:
   - Default
   - TransparentFX
