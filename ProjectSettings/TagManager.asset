@@ -10,6 +10,7 @@ TagManager:
   - Cabinet
   - Lego Piece
   - Lego Piece 2
+  - EndZone
   layers:
   - Default
   - TransparentFX
