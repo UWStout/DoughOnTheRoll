@@ -29,3 +29,6 @@
                 Main Menu ->  John Bartmann - Happy Clappy
                 In Game ->    TRG Banks - Grandpa's great escape
                 
+## Known Bugs:
+    Candy cane collider occasionally clips into objects
+    
